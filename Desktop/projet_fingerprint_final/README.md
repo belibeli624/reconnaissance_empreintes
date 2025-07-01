@@ -1,5 +1,5 @@
 
-## Projet de reconnaissance d'Empreintes Digitales avec Arduino
+# Projet de reconnaissance d'Empreintes Digitales avec Arduino
 
 ce projet utilise un capteur d'empreinte digitale pour iodentifier les utilisateurs enregistrés. il est réalisé avec une carte Arduino UNO et un capteur compatible Adafruit (modèel R305 ou équivalent).
 
@@ -48,3 +48,4 @@ Le schéma ci-dessous montre comment connecter le lecteur d'empreinte digitale �
 ## Auteur
 
 Projet réalisé par BELIANA MALANDALA dans le cadre d'un travail de fin d'année.
+test de modification README
