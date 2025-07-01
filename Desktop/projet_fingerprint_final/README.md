@@ -48,4 +48,3 @@ Le schéma ci-dessous montre comment connecter le lecteur d'empreinte digitale �
 ## Auteur
 
 Projet réalisé par BELIANA MALANDALA dans le cadre d'un travail de fin d'année.
-test de modification README
