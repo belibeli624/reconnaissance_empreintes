@@ -13,6 +13,7 @@ ce projet utilise un capteur d'empreinte digitale pour iodentifier les utilisate
 - Jumper
 - Afficheur
 - Trimpot ou Potentiomètre ajustable
+- Un peigne
 
 ## Bibliothèques nécessaires
 
@@ -34,16 +35,18 @@ Le schéma ci-dessous montre comment connecter le lecteur d'empreinte digitale �
 
 ## Fonctionnement
 
-- Le capteur lit une empreinte.
-- Si elle est enregisytrée, l'ID correspondant s'affiche dans le moniteur série.
-- Sinon, rien ne se passe.
+Le capteur d'empreintes lit l'empreinte deposée. Si celle-ci est reconnue par le système, la personne est autorisée à entrer dans la pièce. Mais dans le cas contraire, l'accès lui est refusé.
 
 ## Instructions
 
-1. connectez les câbles comme indiqué ci-dessus.
-2. Téléversez le code `fingerprint_recognition.ino` sur votre Arduino.
-3. Ouvrez le moniteur série à 9600 bauds.
-4. Placez un doigt sur le capteur.
+1. Approchez-vous du dispositif et placez votre doigt sur le capteur d'empreintes.
+2. Le capteur lit l'empreinte et vérifie si elle correspond à une empreinte enregistrée.
+3. si l'empreinte est reconnue :
+   - L'accès est accordée.
+   - Une LED ou un autre mécanisme (porte, alarme, etc.) peut indiquer l'autorisation.
+4. Si l'empreinte est inconnue :
+   - L'accès est refusé.
+   - Aucun signal d'ouverture n'est déclenché.
 
 ## Auteur
 
